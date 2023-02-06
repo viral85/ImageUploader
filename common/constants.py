@@ -1,0 +1,15 @@
+IMAGE = "Image"
+IMAGES = "Images"
+
+SOMETHING_WENT_WRONG = "Something went wrong."
+UPLOADED_SUCCESSFULLY = "{image} uploaded successfully"
+DELETED_SUCCESSFULLY = "{image} deleted successfully"
+FETCHED_SUCCESSFULLY = "{image} fetched successfully"
+
+GCS_CLIENT_AUTHENTICATION_ERROR = "Error while Authenticating Google Cloud Storage client :: {e}"
+ACCESSING_GCS_BUCKET_ERROR = "Error while Accessing Bucket from Google Cloud Storage:: {e}"
+GCS_GATEWAY_TIMEOUT_ERROR = "Gateway Timeout Error for Google Cloud Storage:: {e}"
+GCS_ERROR = "General Exception of Google Cloud:: {e}"
+GENERAL_EXCEPTION = "General Exception:: {e}"
+INVALID_FILE_TYPE_MESSAGE = "Invalid file type. Allowed extensions are {msg}"
+FILE_NOT_FOUND_IN_GCS = "Error while Accessing File from Google Cloud Storage Bucket:: {e}"
